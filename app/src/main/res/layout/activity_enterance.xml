@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbb"
+    android:gravity="center"
+    tools:context=".EnteranceActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Welcome !!!"
+        android:textColor="#fde10611"
+        android:layout_marginBottom="50dp"
+        />
+
+    <TextView
+        style="@style/SampleStyle"
+        android:text="Play"
+        android:onClick="playGame"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+       style="@style/SampleStyle"
+        android:text="Settings"
+        android:onClick="setting"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        style="@style/SampleStyle"
+        android:text="About"
+        android:onClick="about"
+
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="3dp" />
+    <TextView
+        style="@style/SampleStyle"
+        android:text="Exit"
+        android:onClick="exit"/>
+
+
+
+
+</LinearLayout>
